@@ -1,0 +1,153 @@
+====================================================================
+	Main Slider style
+====================================================================
+
+***/
+
+.main-slider{
+	position:relative;
+	background:none;
+	color:#ffffff;
+}
+.main-slider img{
+	 background: rgba(0, 0, 0, 0.5);
+}
+.main-slider .map i{
+	height:40px;
+	background:#4b8521;
+	font-size:15px;
+}
+.main-slider input.short{
+	font-size:18px; 
+	font-weight:500; 
+	color:#000 !important;
+	font-family:Noto Sans;
+	width:290px;
+	height:40px;
+	background:#4b8521;
+	border:0px solid;
+	display:block;
+	overflow:hidden
+	
+}
+.main-slider-two h1{
+	font-size:30px;
+	padding:10px 10px !important; 
+	text-transform:uppercase;
+	color:#000;
+	font-weight:700;
+	font-family:Bitter;
+	line-height:30px;
+	text-align:center;
+}
+ .main-slider-two h1{
+	font-size:50px;
+	padding:10px 10px !important; 
+	text-transform:uppercase;
+	color:#95b61d;
+	font-weight:700;
+	font-family:Bitter;
+	line-height:30px;
+	 
+}
+ 
+
+.main-slider h2{
+	font-size:16px; 
+	color:#fff;
+	font-weight:500;
+	font-family:lato;
+	line-height:25px;
+	text-align:center;
+	width:100%;
+	display:inline-block
+}
+ 
+.main-slider h3{
+	font-size:77px;
+	padding:5px 10px; 
+	font-weight:900;
+	text-transform:uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:;
+} 
+ 
+ 
+.main-slider .tp-banner-container .tp-banner .slider-btn
+{
+    width: 145px ;
+    height: 50px ; 
+    text-align: center;
+    padding-top: 15px ;
+    color: #fff ;
+    font-weight: 900 ;
+    text-transform: uppercase;
+    font-family: Noto Sans ;
+    font-size: 13px ;
+    cursor: pointer;
+	background:#95b61d ;
+}
+.main-slider .tp-banner-container .tp-banner .slider-btn a {
+  font-size: 13px ; 
+}
+.main-slider .tp-banner-container .tp-banner .roman-text{
+	font-size:50px;
+	padding:10px 10px ; 
+ 	color:#fff;
+	font-weight:300;
+	font-family:Bitter;
+	line-height:60px;
+	text-align:center;
+}
+.main-slider .tp-banner-container .tp-banner .roman-text span{
+	font-size:40px;
+	padding:10px 10px ; 
+	 
+	color:#fff;
+	font-weight:500;
+	font-family:Bitter;
+	line-height:40px;
+	text-align:center;
+}
+ .main-slider .roman-tex .slider-two{
+	font-size:50px;
+	padding:10px 10px !important; 
+	text-transform:uppercase;
+	color:#95b61d;
+	font-weight:700;
+	font-family:Bitter;
+	line-height:60px;
+	text-align:center !important;
+}
+ 
+
+.tp-bullets.preview4 .bullet{
+	border-color:rgba(255,255,255,0.90) !important;
+	background:none !important;
+	margin:0px 5px;
+}
+
+.tp-bullets.preview4 .bullet:hover,
+.tp-bullets.preview4 .bullet.selected{
+	border-color:#f8aa27 !important;
+	background:#ffffff !important;
+}
+ 
+ 
+ 
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.main-slider .tp-banner-container .tp-banner .slider-btn {
+		background: #95b61d none repeat scroll 0 0 ;
+		color: #fff ;
+		cursor: pointer;
+		font-family: Noto Sans ;
+		font-size: 13px ;
+		font-weight: 900 ;
+		height: 50px ;
+		padding-top: 18px ;
+		text-align: center;
+		text-transform: uppercase;
+		width: 145px ;
+	} 
+} 
